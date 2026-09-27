@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARBERSHOP — мужские стрижки и бритьё в Орске</title>
+    <meta name="description" content="BARBERSHOP в Орске: мужские стрижки, моделирование бороды и традиционное бритьё от четырёх опытных мастеров. Онлайн-запись, работаем ежедневно.">
+    <meta name="theme-color" content="#14110E">
+    <meta name="color-scheme" content="dark">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="BARBERSHOP">
+    <meta property="og:title" content="BARBERSHOP — мужские стрижки и бритьё в Орске">
+    <meta property="og:description" content="Стрижки, борода, бритьё и комплекс от опытных мастеров. Онлайн-запись, ежедневно, проспект Ленина 17.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.png" type="image/png" sizes="64x64">
+    <script>
+        if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.documentElement.classList.add('js');
+        }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main">К содержанию</a>
+    <header>
+        <div class="container">
+            <div class="wrap">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Логотип BARBERSHOP" width="256" height="256">
+                </div>
+                <button class="burger" aria-label="Меню" aria-expanded="false" aria-controls="site-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav id="site-nav">
+                    <a href="#masters">Мастера</a>
+                    <a href="#service">Услуги</a>
+                    <a href="#about">О нас</a>
+                    <a href="#gallery">Галерея</a>
+                </nav>
+                <a href="#" class="mainbtn header-btn">Записаться</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container hero" id="main" tabindex="-1">
+        <div class="hero-info reveal">
+            <h1>твой стиль.<br>твои правила.</h1>
+            <hr>
+            <p>Мужские стрижки и бритьё от опытных мастеров.</p>
+            <div class="hero-features">
+                <ul>
+                    <li>
+                        <img src="icons/scissors.svg" alt="" width="24" height="24">
+                        <span>4 мастера</span>
+                    </li>
+
+                    <li>
+                        <img src="icons/calendar.svg" alt="" width="24" height="24">
+                        <span>Онлайн запись</span>
+                    </li>
+
+                    <li>
+                        <img src="icons/clock.svg" alt="" width="24" height="24">
+                        <span>Ежедневно</span>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="mainbtn">записаться онлайн <img src="icons/arrow-right.svg" alt="" width="24" height="24"></a>
+        </div>
+        <div class="hero-cards">
+            <a href="#Gena" class="barber-card">
+                <img src="images/1stBar.jpg" alt="Мастер Геннадий, топ-барбер" width="599" height="900" loading="eager" fetchpriority="high" decoding="async">
+                <div class="barber-card__content">
+                    <h3>Геннадий</h3>
+                    <span>Топ-барбер</span>
+                </div>
+            </a>
+            <a href="#Dima" class="barber-card">
+                <img src="images/2ndBar.jpg" alt="Мастер Дмитрий, барбер" width="720" height="900" loading="eager" decoding="async">
+                <div class="barber-card__content">
+                    <h3>Дмитрий</h3>
+                    <span>Барбер</span>
+                </div>
+            </a>
+            <a href="#Evg" class="barber-card">
+                <img src="images/3rdBar.jpg" alt="Мастер Евгений, барбер" width="720" height="900" loading="lazy" decoding="async">
+                <div class="barber-card__content">
+                    <h3>Евгений</h3>
+                    <span>Барбер</span>
+                </div>
+            </a>
+            <a href="#Alex" class="barber-card">
+                <img src="images/4Bar.jpg" alt="Мастер Александр, барбер" width="720" height="900" loading="lazy" decoding="async">
+                <div class="barber-card__content">
+                    <h3>Александр</h3>
+                    <span>Барбер</span>
+                </div>
+            </a>
+        </div>
+        </section>
+
+        <section class="container service" id="service">
+        <h2 class="service-title reveal">Услуги</h2>
+        <hr>
+        <div class="wrap">
+            <div class="service-card">
+                <img src="icons/haircut.png" alt="" width="150" height="176" loading="lazy" decoding="async">
+                <h3>стрижка</h3>
+                <hr>
+                <p>Классические и современные стрижки на любой стиль.</p>
+                <span>от 1000₽</span>
+            </div>
+            <div class="service-card">
+                <img src="icons/beard.png" alt="" width="170" height="176" loading="lazy" decoding="async">
+                <h3>Борода</h3>
+                <hr>
+                <p>Моделирование и уход за бородой</p>
+                <span>от 800₽</span>
+            </div>
+            <div class="service-card">
+                <img src="icons/razor.png" alt="" width="176" height="157" loading="lazy" decoding="async">
+                <h3>Бритьё</h3>
+                <hr>
+                <p>Традиционное бритьё с уходом для кожи</p>
+                <span>от 800₽</span>
+            </div>
+            <div class="service-card">
+                <img src="icons/combo.png" alt="" width="176" height="149" loading="lazy" decoding="async">
+                <h3>Комплекс</h3>
+                <hr>
+                <p>Стрижка, борода и уход - полный комплект</p>
+                <span>от 1800₽</span>
+            </div>
+        </div>
+        </section>
+
+        <section class="about container" id="masters">
+            <h2 class="reveal">Мастера</h2>
+            <hr class="title-hr">
+            <div class="wrap">
+                <div class="about-block" id="Gena">
+                    <div class="block-info">
+                        <img src="images/1stBar.jpg" alt="Геннадий — топ-барбер BARBERSHOP" width="599" height="900" loading="lazy" decoding="async">
+                    </div>
+                    <div class="about-text">
+                        <h3>Геннадий</h3>
+                        <hr>
+                        <span>Стаж - 5 лет</span>
+                        <p>Замечательный текст о становлении Геннадия барбером и так далее</p>
+                        <a href="#" class="mainbtn">Записаться</a>
+                    </div>
+                </div>
+                <div class="about-block" id="Dima">
+                    <div class="block-info">
+                        <img src="images/2ndBar.jpg" alt="Дмитрий — барбер BARBERSHOP" width="720" height="900" loading="lazy" decoding="async">
+                    </div>
+                    <div class="about-text">
+                        <h3>Дмитрий</h3>
+                        <hr>
+                        <span>Стаж - 3 года</span>
+                        <p>Замечательный текст о становлении Дмитрия барбером и так далее</p>
+                        <a href="#" class="mainbtn">Записаться</a>
+                    </div>
+                </div>
+                <div class="about-block" id="Evg">
+                    <div class="block-info">
+                        <img src="images/3rdBar.jpg" alt="Евгений — барбер BARBERSHOP" width="720" height="900" loading="lazy" decoding="async">
+                    </div>
+                    <div class="about-text">
+                        <h3>Евгений</h3>
+                        <hr>
+                        <span>Стаж - 2 года</span>
+                        <p>Замечательный текст о становлении Евгения барбером и так далее</p>
+                        <a href="#" class="mainbtn">Записаться</a>
+                    </div>
+                </div>
+                <div class="about-block" id="Alex">
+                    <div class="block-info">
+                        <img src="images/4Bar.jpg" alt="Александр — барбер BARBERSHOP" width="720" height="900" loading="lazy" decoding="async">
+                    </div>
+                    <div class="about-text">
+                        <h3>Александр</h3>
+                        <hr>
+                        <span>Стаж - 1 год</span>
+                        <p>Замечательный текст о становлении Александра барбером и так далее</p>
+                        <a href="#" class="mainbtn">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery container" id="gallery">
+            <h2 class="reveal">Наши работы</h2>
+            <hr class="title-hr">
+            <div class="gallery-wrap">
+                <img class="reveal" src="images/cut1.jpg" alt="Пример стрижки 1" width="733" height="1100" loading="lazy" decoding="async">
+                <img class="reveal" src="images/cut2.jpg" alt="Пример стрижки 2" width="619" height="1100" loading="lazy" decoding="async">
+                <img class="reveal" src="images/cut3.jpg" alt="Пример стрижки 3" width="733" height="1100" loading="lazy" decoding="async">
+                <img class="reveal" src="images/cut4.jpg" alt="Пример стрижки 4" width="734" height="1100" loading="lazy" decoding="async">
+            </div>
+        </section>
+
+        <section class="advantages container" id="about">
+            <div class="wrap">
+                <div class="advantages-info reveal">
+                    <h2>У нас хорошо</h2>
+                    <hr class="title-hr">
+                    <p>Мы создали место, где можно расслабиться не только во время стрижки, но и пока ждешь своей очереди. У нас уютно: можно сыграть в <span class="active">PlayStation 5</span>, выпить <span class="active">ароматный кофе</span> и просто отдохнуть от повседневной суеты.</p>
+                    <p>Приходите в гости — убедитесь сами, что барбершоп может быть не только местом для стрижки, но и пространством, куда хочется возвращаться.</p>
+                </div>
+                <div class="advantages-banner reveal"><img src="images/inside.jpg" alt="Интерьер BARBERSHOP" width="800" height="800" loading="lazy" decoding="async"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="container">
+                <div class="footer-item footer-item-logo">
+                    <img class="logo" src="images/logo.png" alt="Логотип BARBERSHOP" width="256" height="256" loading="lazy" decoding="async">
+                    <p>BARBERSHOP - это барбершоп для тех, кто ценит качество и атмосферу</p>
+                </div>
+                <div class="footer-item">
+                    <h4>контакты</h4>
+                    <ul>
+                        <li><img class="icon" src="icons/map.svg" alt="" width="24" height="24" loading="lazy"><a href="https://yandex.ru/maps/-/CTvvNFJA" target="_blank" rel="noopener noreferrer">просп. Ленина, 17, микрорайон Новый город, Орск</a></li>
+                        <li><img class="icon" src="icons/phone.svg" alt="" width="24" height="24" loading="lazy"><a href="tel:+79920853636">+7 (992) 085-36-36</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>записаться</h4>
+                    <a href="#" class="mainbtn" target="_blank" rel="noopener noreferrer">запись онлайн</a>
+                </div>
+            </div>
+        </div>
+        <div class="protection"><p>©2026 BARBERSHOP. Все права защищены.</p></div>
+    </footer>
+    
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.getElementById('site-nav');
+
+        if (burger && nav) {
+            function setMenu(open) {
+                burger.classList.toggle('active', open);
+                nav.classList.toggle('open', open);
+                burger.setAttribute('aria-expanded', String(open));
+            }
+
+            burger.addEventListener('click', function() {
+                setMenu(!nav.classList.contains('open'));
+            });
+
+            nav.querySelectorAll('a').forEach(function(link) {
+                link.addEventListener('click', function() {
+                    setMenu(false);
+                });
+            });
+
+            document.addEventListener('click', function(event) {
+                if (nav.classList.contains('open') && !event.target.closest('header .wrap')) {
+                    setMenu(false);
+                }
+            });
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape') {
+                    setMenu(false);
+                }
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    setMenu(false);
+                }
+            });
+        }
+
+        if (document.documentElement.classList.contains('js')) {
+            const heroCards = document.querySelectorAll('.hero-cards .barber-card');
+            const revealItems = document.querySelectorAll('.reveal, .service-card, .about-block, .gallery-wrap img, .advantages-info, .advantages-banner');
+
+            function revealItem(item, order) {
+                item.style.transitionDelay = Math.min(order * 35, 140) + 'ms';
+                item.classList.add('show');
+            }
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (!entry.isIntersecting) return;
+                    revealItem(entry.target, Number(entry.target.dataset.revealOrder || 0));
+                    observer.unobserve(entry.target);
+                });
+            }, {
+                threshold: 0.08,
+                rootMargin: '0px 0px -5% 0px'
+            });
+
+            revealItems.forEach(function(item, order) {
+                item.dataset.revealOrder = order;
+                observer.observe(item);
+            });
+
+            heroCards.forEach(function(card, index) {
+                card.style.animationDelay = index * 70 + 'ms';
+                card.classList.add('show');
+            });
+        }
+    </script>
+</body>
+</html>
